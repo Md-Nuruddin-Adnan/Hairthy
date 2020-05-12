@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+ 
+::after, ::before {
+  box-sizing: border-box;
+}
+ 
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+   
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  background: #F3F1EF;
+  color: #000;
+}
+/* basic css end */
+
+/* common css start */
+.section-heading h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.section-heading p {
+  font-size: 25px;
+  color: #000;
+}
+
+p {
+  font-size: 22px;
+  color: #000;
+}
+
+.my-btn {
+  background: #2E2D2C;
+  color: #fff;
+  border-radius: 4px;
+  width: 150px;
+  display: block;
+}
+
+.my-btn:hover {
+  color: #fff;
+  background: #000;
+}
+
+.features .icon img {
+  width: 75px;
+}
+
+.features h5 {
+  font-size: 25px;
+  padding: 20px 0 15px 0;
+}
+
+.features p {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+/*// end of common css */
+
+/* main css start */
+
+/* === main content start === */
+.main-content {
+  background: url(../images/main-bg.png) no-repeat top/cover;
+}
+/* ===//end of main content === */
+
+/* === header section start === */
+.header {
+  background: #E1E1E1;
+}
+
+.header .navbar {
+  padding: 0 1rem;
+}
+
+.header .navbar .navbar-brand img {
+  width: 200px;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link:hover {
+  background: #C9C9C9;
+}
+/* ===//end of header section === */
+
+/* === banner section start === */
+.banner {
+  background: url(../images/banner-bg.png) no-repeat top left/cover;
+  padding: 150px 0 50px 0;
+  min-height: 95vh;
+}
+
+.banner .bnr-content h1{
+  font-size: 60px;
+  color: #fff;
+  padding: 50px 0 20px 0;
+}
+
+.banner .bnr-content p{
+  font-size: 25px;
+  color: #fff;
+  line-height: 30px;
+  white-space: pre-line;
+}
+
+.banner .arrow-symble i {
+  font-size: 30px;
+  color: #fff;
+  padding-top: 200px;
+}
+/* ===//end of banner section === */
+
+/* === la_bross section start === */
+.la_bross {
+  padding: 80px 0;
+}
+
+.la_bross .main-img {
+  max-width: 300px;
+  padding: 50px 0;
+}
+
+.la_bross_text {
+  margin-top: 120px;
+}
+/* ===//end of la_bross section === */
+
+
+/* === appication section start === */
+.appication {
+  padding: 80px 0;
+}
+
+.appication .main-img {
+  max-width: 300px;
+  padding: 50px 0;
+}
+
+.application_text {
+  margin-top: 120px;
+}
+/* ===//end of appication section === */
+
+/* === contant section start === */
+.contact {
+  padding-bottom: 80px;
+}
+
+.contact .app_btn li {
+  display: inline-block;
+  padding: 15px;
+  text-align: center;
+}
+
+.contact .app_btn li a img {
+  max-width: 150px;
+}
+/* ===//end of contant section === */
+
+/* === footer section start === */
+.footer {
+  background: #2E2D2C;
+  padding: 60px 0 20px 0;
+}
+
+.footer .logo img {
+  width: 230px;
+}
+
+.footer .s-icon li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.footer .s-icon li img {
+  width: 50px;
+}
+
+.footer-link {
+  margin-bottom: 35px;
+}
+
+.footer-link h6 {
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer-link li a {
+  font-family: 'Roboto', sans-serif; 
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  padding: 3px 0;
+  display: block;
+}
+
+.footer .copyright p {
+  font-family: 'Roboto', sans-serif; 
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+/* ===//end of footer section === */
+
+/* font-family: 'Roboto', sans-serif; */

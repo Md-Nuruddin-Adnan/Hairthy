@@ -1,0 +1,76 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+
+  .banner {
+    padding: 100px 0 50px 0;
+  }
+
+  .banner .bnr-content h1 {
+    font-size: 33px;
+  }
+
+  .banner .bnr-content p {
+    font-size: 20px;
+  }
+
+  .banner .arrow-symble i {
+    padding-top: 50px;
+  }
+
+  .section-heading h2 {
+    font-size: 35px;
+  }
+
+  .section-heading p {
+    font-size: 22px;
+  }
+  
+}
+
+/* Small devices (landscape phones upto 767px) */
+@media (max-width: 767px) {
+  
+}
+
+/* Small devices (landscape phones upto 767px) */
+@media (max-width: 991px) {
+  .features p {
+    margin-bottom: 30px;
+  }
+
+  .la_bross .main-img {
+    padding: 0;
+    margin: auto;
+  }
+  .la_bross_text {
+    margin: 50px 0;
+  }
+
+  .appication  {
+    padding: 0;
+  }
+
+  .application_text {
+    margin-top: 50px;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+    
+ }
+
+/* Large devices (desktops and laptop) */
+@media (max-width: 1199px) {
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  
+ }
